@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-color: lightskyblue;
+            font-family:verdana;
+            text-align:center;}
+    </style>
+    <title>Washington Post Search</title>
+</head>
+
+<body>
+<h3>Washington Post Search</h3>
+
+<form action="{{url_for('results')}}" name="search" method="post">
+    <label for="query">Query:</label>
+    <input type="text" id="query" name="query" size=50 placeholder="Type in words to start searching">
+    <input type="hidden" id="page_num" name="page_num" value="1">
+    <input type="submit" value="Search">
+</form>
+
+</body>
+</html>
