@@ -16,6 +16,7 @@ COSI132A Information Retrieval Spring 2022 - Assignment 5 Building a IR System w
 
 ## Dataset
 * A larger subset of TREC 2018 core corpus that has already been processed. Specifically, each document has the following fields:
+
 | variable     | Description                                                      |
 | ------------ | ---------------------------------------------------------------- |
 | doc_id       | original document id from the jsonline file                      |
@@ -26,6 +27,7 @@ COSI132A Information Retrieval Spring 2022 - Assignment 5 Building a IR System w
 | annotation   | annotation for its relevance to a topic                          |
 | ft_vector    | fastText embedding of the content                                |
 | sbert_vector | Sentence BERT embedding of the content                           |
+
 **Notes**:
 * For the annotation field, the value is stored as the format of topic_id-relevance. The relevance can be either 0, 1 or 2, which represents irrelevant, relevant or very relevant.
 * The topic id can be mapped to the query pairs in the file pa5_data/pa5_queries.json.
