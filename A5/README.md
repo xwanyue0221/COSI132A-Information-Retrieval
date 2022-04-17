@@ -90,43 +90,49 @@ The user shall follow the following step to run this program in the local enviro
 
 ## Evaluation Table for the 12 Example Queries
 
-|            | Keywords        | Natural Language |            | Keywords        | Natural Language | 
-| ---------- | --------------- | ---------------- | ---------- | --------------- | ---------------- |
-| Vector     | 0.84557         | 0.88460          | Vector     | 0.84557         | 0.88460          |
-| Rerank     | 0.85000         | 0.75000          | Rerank     | 0.85000         | 0.75000          |
+| Topic: 336 | Keywords       | Natural Language | Topic: 363 | Keywords       | Natural Language | 
+| ---------- | -------------- | ---------------- | ---------- | -------------- | ---------------- |
+| Vector     | 0.3044         | 0.1148           | Vector     | 0.7693         | 0.1124           |
+| Rerank     | 0.2792         | 0.1328           | Rerank     | 0.7443         | 0.1361           |
 
 
-|            | Keywords        | Natural Language |            | Keywords        | Natural Language | 
-| ---------- | --------------- | ---------------- | ---------- | --------------- | ---------------- |
-| Vector     | 0.84557         | 0.88460          | Vector     | 0.84557         | 0.88460          |
-| Rerank     | 0.85000         | 0.75000          | Rerank     | 0.85000         | 0.75000          |
+| Topic: 397 | Keywords       | Natural Language | Topic: 408 | Keywords       | Natural Language | 
+| ---------- | -------------- | ---------------- | ---------- | -------------- | ---------------- |
+| Vector     | 0.2876         | 0.2080           | Vector     | 0.5907         | 0.5571           |
+| Rerank     | 0.2591         | 0.2576           | Rerank     | 0.4438         | 0.3965           |
 
 
-|            | Keywords        | Natural Language |            | Keywords        | Natural Language | 
-| ---------- | --------------- | ---------------- | ---------- | --------------- | ---------------- |
-| Vector     | 0.84557         | 0.88460          | Vector     | 0.84557         | 0.88460          |
-| Rerank     | 0.85000         | 0.75000          | Rerank     | 0.85000         | 0.75000          |
+| Topic: 433 | Keywords       | Natural Language | Topic: 439 | Keywords       | Natural Language | 
+| ---------- | -------------- | ---------------- | ---------- | -------------- | ---------------- |
+| Vector     | 0.1617         | 0.0174           | Vector     | 0.1094         | 0.0192           |
+| Rerank     | 0.1662         | 0.0174           | Rerank     | 0.0730         | 0.0253           |
 
 
-|            | Keywords        | Natural Language |            | Keywords        | Natural Language | 
-| ---------- | --------------- | ---------------- | ---------- | --------------- | ---------------- |
-| Vector     | 0.84557         | 0.88460          | Vector     | 0.84557         | 0.88460          |
-| Rerank     | 0.85000         | 0.75000          | Rerank     | 0.85000         | 0.75000          |
+| Topic: 442 | Keywords       | Natural Language | Topic: 690 | Keywords       | Natural Language | 
+| ---------- | -------------- | ---------------- | ---------- | -------------- | ---------------- |
+| Vector     | 0.3204         | 0.1877           | Vector     | 0.1638         | 0.0              |
+| Rerank     | 0.3048         | 0.1699           | Rerank     | 0.1681         | 0.0              |
 
 
-|            | Keywords        | Natural Language |            | Keywords        | Natural Language | 
-| ---------- | --------------- | ---------------- | ---------- | --------------- | ---------------- |
-| Vector     | 0.84557         | 0.88460          | Vector     | 0.84557         | 0.88460          |
-| Rerank     | 0.85000         | 0.75000          | Rerank     | 0.85000         | 0.75000          |
+| Topic: 805 | Keywords       | Natural Language | Topic: 806 | Keywords       | Natural Language | 
+| ---------- | -------------- | ---------------- | ---------- | -------------- | ---------------- |
+| Vector     | 0.2821         | 0.1407           | Vector     | 0.8133         | 0.5702           |
+| Rerank     | 0.2741         | 0.1300           | Rerank     | 0.8136         | 0.4674           |
 
 
+| Topic: 816 | Keywords       | Natural Language | Topic: 822 | Keywords       | Natural Language | 
+| ---------- | -------------- | ---------------- | ---------- | -------------- | ---------------- |
+| Vector     | 0.1980         | 0.3945           | Vector     | 0.3984         | 0.4654           |
+| Rerank     | 0.1478         | 0.3806           | Rerank     | 0.3197         | 0.3916           |
 
-|            | Keywords        | Natural Language |            | Keywords        | Natural Language | 
-| ---------- | --------------- | ---------------- | ---------- | --------------- | ---------------- |
-| Vector     | 0.84557         | 0.88460          | Vector     | 0.84557         | 0.88460          |
-| Rerank     | 0.85000         | 0.75000          | Rerank     | 0.85000         | 0.75000          |
-
-
+**Notes**:
+* The analyzer used in this evaluation is the English Analyzer.
+* For the re-rank cases, the default embedding vector used for re-ranking is fast text.
+* The default top k number is 20.
+* One conspicuous observation is that the NDCG scores calculated based on the keyword query are consistently higher than those based on the natural language query.
+* It is interesting to find that the NDCG scores of the re-rank condition are lower than those of the vector condition. 
+* The NDCG scores vary significantly from topic to topic.
+* Generally, the NDCG scores seem to increase along with the increase of the top k number.
 
 ## Difficulties encountered in this assignment
 * Spent at least 3 hours understanding the basic operations of ElasticSearch
