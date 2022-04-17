@@ -35,7 +35,7 @@ COSI132A Information Retrieval Spring 2022 - Assignment 5 Building a IR System w
 
 ## Getting Started
 ### 1. Dependencies
-* This repository is Python-based, and **Python 3.9** is recommended. The dependencies include JSON, Flask, DateTime, re, elasticsearch, elasticsearch-dsl, sentence-transformers, flask, numpy, and pyzmq. 
+This repository is Python-based, and **Python 3.9** is recommended. The dependencies include JSON, Flask, DateTime, re, elasticsearch, elasticsearch-dsl, sentence-transformers, flask, numpy, and pyzmq. 
 
 ### 2. First-time Running
 All dependencies are listed in the requirement.txt file. Anyone who wishes to run this project on a local environment could install these packages using the command: <code>pip3 install -r requirements.txt </code>. Before running this project in the terminal, the user shall be aware that all the required packages listed above shall be properly installed or upgraded to the latest version. 
@@ -54,6 +54,7 @@ You need to download the pretrained fastText embedding on wiki news and put it i
 
 ### 4. Activate Elasticsearch Basics
 You can  can click this [link](https://www.elastic.co/downloads/past-releases#elasticsearch) to download ES. Make sure you are choosing Elasticsearch 7.10.2. 
+
 To start the ES engine:
 ```shell script
 cd elasticsearch-7.10.2/
@@ -82,11 +83,11 @@ python load_es_index.py --index_name wapo_docs_50k --wapo_path pa5_data/subset_w
 ### 6. Running the Programs
 The user shall follow the following step to run this program in the local environment. Run <code> python hw5.py </code> in the environment and type http://127.0.0.1:5000/ in browser to view the web application. 
 
-- For Evaluation: 
-    Change ```TOPIC_ID``` to the topic ID you want to evaluate.
-    ```shell
-    sh scirpts.sh
-    ```
+For Evaluation: 
+Change ```TOPIC_ID``` to the topic ID you want to evaluate.
+```shell
+sh scirpts.sh
+```
 
 ## Evaluation Table for the 12 Example Queries
 
@@ -140,7 +141,6 @@ The user shall follow the following step to run this program in the local enviro
 * Despite the 3 to 5 hours spent on learning and implementing elastic search in the Python environment, most of the time was spent on debugging
 * It is confusing how to calculate the NDCG score. The formula indicates that the denominator shall be the DCG score of the ideal relevance for the search query. However, it is confusing about the concept of getting ideal relevance. Shall it be the sorted result of the actual relevance list or the top k elements from the gold relevance list extracted from the ideal_relevance.json file?
 
-
 ## Authors
 * The lecturer of COSI132A provided the home template. 
 * The rest functions and templates were created by Wanyue Xiao independently.
@@ -164,7 +164,7 @@ A relevant document identifies a disaster in a tunnel used for trains, motor veh
 </top>
 ```
 
-#### Output
+### Output
 In the following table, the evaluation scores for the example query with different combinations have been displayed. The number of the retrieved document was 20. 
 | Evaluation | BM25+Standard Analyzer| BM25+English Analyzer | SentenceBERT+English Analyzer | Rerank SentenceBERT+English Analyzer |
 | ---------- | ----------------------| --------------------- | ----------------------------- | ------------------------------------ |
