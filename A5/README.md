@@ -90,40 +90,41 @@ The user shall follow the following step to run this program in the local enviro
 
 ## Evaluation Table for the 12 Example Queries
 
-|            | Keywords        | Natural Language |    |            | Keywords        | Natural Language | 
-| ---------- | --------------- | ---------------- |    | ---------- | --------------- | ---------------- |
-| Vector     | 0.84557         | 0.88460          |    | Vector     | 0.84557         | 0.88460          |
-| Rerank     | 0.85000         | 0.75000          |    | Rerank     | 0.85000         | 0.75000          |
+|            | Keywords        | Natural Language |            | Keywords        | Natural Language | 
+| ---------- | --------------- | ---------------- | ---------- | --------------- | ---------------- |
+| Vector     | 0.84557         | 0.88460          | Vector     | 0.84557         | 0.88460          |
+| Rerank     | 0.85000         | 0.75000          | Rerank     | 0.85000         | 0.75000          |
 
 
-|            | Keywords        | Natural Language |    |            | Keywords        | Natural Language | 
-| ---------- | --------------- | ---------------- |    | ---------- | --------------- | ---------------- |
-| Vector     | 0.84557         | 0.88460          |    | Vector     | 0.84557         | 0.88460          |
-| Rerank     | 0.85000         | 0.75000          |    | Rerank     | 0.85000         | 0.75000          |
+|            | Keywords        | Natural Language |            | Keywords        | Natural Language | 
+| ---------- | --------------- | ---------------- | ---------- | --------------- | ---------------- |
+| Vector     | 0.84557         | 0.88460          | Vector     | 0.84557         | 0.88460          |
+| Rerank     | 0.85000         | 0.75000          | Rerank     | 0.85000         | 0.75000          |
 
 
-|            | Keywords        | Natural Language |    |            | Keywords        | Natural Language | 
-| ---------- | --------------- | ---------------- |    | ---------- | --------------- | ---------------- |
-| Vector     | 0.84557         | 0.88460          |    | Vector     | 0.84557         | 0.88460          |
-| Rerank     | 0.85000         | 0.75000          |    | Rerank     | 0.85000         | 0.75000          |
+|            | Keywords        | Natural Language |            | Keywords        | Natural Language | 
+| ---------- | --------------- | ---------------- | ---------- | --------------- | ---------------- |
+| Vector     | 0.84557         | 0.88460          | Vector     | 0.84557         | 0.88460          |
+| Rerank     | 0.85000         | 0.75000          | Rerank     | 0.85000         | 0.75000          |
 
 
-|            | Keywords        | Natural Language |    |            | Keywords        | Natural Language | 
-| ---------- | --------------- | ---------------- |    | ---------- | --------------- | ---------------- |
-| Vector     | 0.84557         | 0.88460          |    | Vector     | 0.84557         | 0.88460          |
-| Rerank     | 0.85000         | 0.75000          |    | Rerank     | 0.85000         | 0.75000          |
+|            | Keywords        | Natural Language |            | Keywords        | Natural Language | 
+| ---------- | --------------- | ---------------- | ---------- | --------------- | ---------------- |
+| Vector     | 0.84557         | 0.88460          | Vector     | 0.84557         | 0.88460          |
+| Rerank     | 0.85000         | 0.75000          | Rerank     | 0.85000         | 0.75000          |
 
 
-|            | Keywords        | Natural Language |    |            | Keywords        | Natural Language | 
-| ---------- | --------------- | ---------------- |    | ---------- | --------------- | ---------------- |
-| Vector     | 0.84557         | 0.88460          |    | Vector     | 0.84557         | 0.88460          |
-| Rerank     | 0.85000         | 0.75000          |    | Rerank     | 0.85000         | 0.75000          |
+|            | Keywords        | Natural Language |            | Keywords        | Natural Language | 
+| ---------- | --------------- | ---------------- | ---------- | --------------- | ---------------- |
+| Vector     | 0.84557         | 0.88460          | Vector     | 0.84557         | 0.88460          |
+| Rerank     | 0.85000         | 0.75000          | Rerank     | 0.85000         | 0.75000          |
 
 
-|            | Keywords        | Natural Language |    |            | Keywords        | Natural Language | 
-| ---------- | --------------- | ---------------- |    | ---------- | --------------- | ---------------- |
-| Vector     | 0.84557         | 0.88460          |    | Vector     | 0.84557         | 0.88460          |
-| Rerank     | 0.85000         | 0.75000          |    | Rerank     | 0.85000         | 0.75000          |
+
+|            | Keywords        | Natural Language |            | Keywords        | Natural Language | 
+| ---------- | --------------- | ---------------- | ---------- | --------------- | ---------------- |
+| Vector     | 0.84557         | 0.88460          | Vector     | 0.84557         | 0.88460          |
+| Rerank     | 0.85000         | 0.75000          | Rerank     | 0.85000         | 0.75000          |
 
 
 
