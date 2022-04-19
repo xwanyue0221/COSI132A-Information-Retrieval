@@ -50,7 +50,7 @@ data
 ├── topics2018.xml
 └── wiki-news-300d-1M-subword.vec
 ```
-You need to download the pretrained fastText embedding on wiki news and put it into data folder. You can click these links ([link](https://dl.fbaipublicfiles.com/fasttext/vectors-english/wiki-news-300d-1M-subword.vec.zip) & [link](https://drive.google.com/file/d/1Y03Cgf-84lua5cmBEt8-4JQKbdgvu3vG/view)) to download. 
+You need to download the pretrained fastText embedding on wiki news and put it into data folder. You can click these links ([wiki-news-300d-1M-subword](https://dl.fbaipublicfiles.com/fasttext/vectors-english/wiki-news-300d-1M-subword.vec.zip) & [subset_wapo_50k_sbert_ft_filtered](https://drive.google.com/file/d/1Y03Cgf-84lua5cmBEt8-4JQKbdgvu3vG/view)) to download. 
 
 ### 4. Activate Elasticsearch Basics
 You can  can click this [link](https://www.elastic.co/downloads/past-releases#elasticsearch) to download ES. Make sure you are choosing Elasticsearch 7.10.2. 
